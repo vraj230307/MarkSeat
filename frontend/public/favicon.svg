@@ -1,0 +1,6 @@
+<!-- NOTE: Swap your final brand logo SVG here. Currently using a flat primary geometric ticket icon mark. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none">
+  <rect width="32" height="32" rx="6" fill="#5c34d7"/>
+  <path d="M9 11C9 9.89543 9.89543 9 11 9H21C22.1046 9 23 9.89543 23 11V14.5C22.1716 14.5 21.5 15.1716 21.5 16C21.5 16.8284 22.1716 17.5 23 17.5V21C23 22.1046 22.1046 23 21 23H11C9.89543 23 9 22.1046 9 21V17.5C9.82843 17.5 10.5 16.8284 10.5 16C10.5 15.1716 9.82843 14.5 9 14.5V11Z" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="16" y1="12" x2="16" y2="20" stroke="#ffffff" stroke-width="1.5" stroke-dasharray="2 2"/>
+</svg>
