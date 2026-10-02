@@ -1,0 +1,35 @@
+{
+  "name": "risk-and-vision-engine",
+  "version": "1.0.0",
+  "description": "AI Risk & Verification Engine for FairPass/MarkSeat Ticket Booking Platform",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test:risk": "node scripts/test-risk-engine.js",
+    "test:inspector": "node scripts/test-inspector.js",
+    "test:ratelimit": "node scripts/test-rate-limiter.js",
+    "test:connection": "node scripts/test-connection.js",
+    "simulate:bot": "node scripts/bot-simulator.js"
+  },
+  "keywords": [
+    "ai",
+    "risk-engine",
+    "gemini",
+    "verification",
+    "ticket-booking",
+    "fairpass",
+    "markseat"
+  ],
+  "author": "Member 3 - Backend & AI Specialist",
+  "license": "ISC",
+  "dependencies": {
+    "@google/genai": "latest",
+    "@google/generative-ai": "^0.22.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "puppeteer": "^24.2.0"
+  }
+}
