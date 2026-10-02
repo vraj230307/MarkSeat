@@ -5,3 +5,7 @@ node_modules/
 *.db
 *.log
 .DS_Store
+
+*.db
+.db-wal
+*.db-shm
